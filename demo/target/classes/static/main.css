@@ -46,15 +46,10 @@ div.description{
 	width: 180px;
 	height: 50px;
 	border: 2px solid #fb2274;
-	line-height: 40px;
+	line-height: 35px;
 	margin: 25px auto 0;
 	color: #fb2274;
 	text-align: center;
-}
-
-.btn a:hover {
-  background-color:#535353;
-  cursor: pointer;
 }
 .main_container{
 	position: relative;
@@ -111,11 +106,11 @@ a.button hover{
   background-color: rgb(88, 75, 75);
 }
 
-iframe:focus {
+iframe:focus { 
   outline: none;
 }
 
-iframe[seamless] {
+iframe[seamless] { 
   display: flexbox;
 }
 
@@ -185,7 +180,7 @@ iframe[seamless] {
       position: absolute;
       text-align: center;
       z-index: 1;
-
+    
   }
 
   .curtain_content img{
@@ -207,19 +202,16 @@ iframe[seamless] {
 	text-align: center;
 }
   .form_input{
-		color: #fff;
     margin-bottom: 15px;
   }
-
+  
   .form_input input[type="text"]{
-		color: #fff;
     width: 250px;
     padding: 12px 20px;
     border: 1px solid #ccc;
   }
-
+  
   .form_input textarea{
-		color: #fff;
     width: 250px;
     padding: 12px 20px;
     height: 80px;
@@ -253,7 +245,7 @@ iframe[seamless] {
 	padding: 20px 0;
 	width: 100%;
 	text-align: center;
-
+	
 }
 
 .footer a{
