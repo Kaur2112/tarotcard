@@ -41,7 +41,7 @@ div.description{
   font-style: 'Josedub Sans', cursive;
 }
 
-.btn a{
+.btn{
 	display: block;
 	width: 180px;
 	height: 50px;
@@ -52,7 +52,7 @@ div.description{
 	text-align: center;
 }
 
-.btn a:hover {
+.btn:hover {
   background-color:#535353;
   cursor: pointer;
 }
