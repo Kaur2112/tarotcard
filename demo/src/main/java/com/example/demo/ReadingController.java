@@ -20,10 +20,7 @@ public class ReadingController {
 			"You will say \"This is fine\"!",
 			"Your house will be assaulted by birds!",
 			"Trees will sing your name!",
-			"Your kneecaps will be safe....for now!",
-			"You will get what you most desire!",
-			"Life will never be the same after this moment!",
-			"You will be rich!!"
+			"Your kneecaps will be safe....for now!"
 	};
 
 	@GetMapping("/reading")
