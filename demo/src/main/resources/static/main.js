@@ -10,24 +10,24 @@ $(document).ready(function () {
         statusElm.empty()
 
         if (email.length > 5 && email.includes('@') && email.includes('.')) {
-            statusElm.append('<div>Email is valid<\div>')
+            //statusElm.append('<div>Email is valid<\div>')
         } else {
             event.preventDefault()
-            statusElm.append('<div>Email is not valid<\div>')
+            //statusElm.append('<div>Email is not valid<\div>')
         }
 
         if (name.length > 2) {
-            statusElm.append('<div>Name is valid<\div>')
+            //statusElm.append('<div>Name is valid<\div>')
         } else {
             event.preventDefault()
-            statusElm.append('<div>Name is not valid<\div>')
+            //statusElm.append('<div>Name is not valid<\div>')
         }
 
         if (message.length > 1) {
-            statusElm.append('<div>Message is valid<\div>')
+            //statusElm.append('<div>Message is valid<\div>')
         } else {
             event.preventDefault()
-            statusElm.append('<div>Message is not valid<\div>')
+            //statusElm.append('<div>Message is not valid<\div>')
         }
 
     })
